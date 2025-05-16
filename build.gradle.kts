@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.blac.jposx"
-version = "0.0.2"
+version = "0.0.3"
 
 
 java {
@@ -20,7 +20,7 @@ publishing {
             from(components["java"])
             groupId = "dev.blac.jposx"
             artifactId = "jposx-shared"
-            version = "0.0.2"
+            version = "0.0.3"
         }
     }
 
