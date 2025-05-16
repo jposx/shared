@@ -20,7 +20,7 @@ publishing {
             from(components["java"])
             groupId = "dev.blac.jposx"
             artifactId = "jposx-shared"
-            version = "0.0.1"
+            version = "0.0.2"
         }
     }
 
