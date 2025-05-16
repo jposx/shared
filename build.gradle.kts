@@ -27,7 +27,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/jposx/jposx-shared")
+            url = uri("https://maven.pkg.github.com/jposx/shared")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("GPR_USER")
                 password = project.findProperty("gpr.key") as String? ?: System.getenv("GPR_TOKEN")
