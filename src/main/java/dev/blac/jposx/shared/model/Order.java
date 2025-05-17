@@ -8,7 +8,7 @@ import java.util.List;
 // which contain the actual individual items or meals the customers are ordering
 //
 public class Order {
-	private String orderId;
+	private int orderId;
 	private String source;
 	private Instant createdAt;
 	private List<OrderItem> items;
@@ -21,4 +21,19 @@ public class Order {
 		return total;
 	}
 
+	public int getId() {
+		return this.orderId;
+	}
+
+	public String getSource() {
+		return this.source;
+	}
+
+	public Instant getCreatedAt() {
+		return this.createdAt;
+	}
+
+	public List<OrderItem> getItems() {
+		return this.items;
+	}
 }
